@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package Product;
+
+service ProductService {
+    rpc AddProduct(ProductRequest) returns (ProductResponse);
+    rpc GetProduct(ProductIdRequest) returns (ProductResponse);
+    rpc UpdateProduct(ProductRequest) returns (ProductResponse);
+    rpc DeleteProduct(ProductIdRequest) returns (ProductResponse);
+}
+
+message ProductRequest {
+    int32 id = 1;
+    string name = 2;
+    string email = 3;
+}
+
+message ProductIdRequest {
+    int32 id = 1;
+}
+
+message ProductResponse {
+    int32 id = 1;
+    string name = 2;
+    string valor = 3;
+    string msg = 4;
+}
