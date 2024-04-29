@@ -33,6 +33,6 @@ O RPC é um paradigma de comunicação entre processos que permite que um progra
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma *issue* se encontrar algum problema ou enviar uma solicitação de *pull request* com melhorias.
 
-## Licença
+## Autor
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto foi desenvolvido por Régis Camargo.
